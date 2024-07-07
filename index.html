@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styler.css">
+</head>
+<body> 
+    <div class="header"> 
+        <h1>bem Vindo</h1>
+    </div>
+<main>
+    <div class="content">
+        <div class="bord">
+            <h3>Usuario:</h3>
+            <div class="transparente">
+            <ul id="respsota" class="centralizar"></ul>
+            </div>
+            <div class="extraimage">
+                <img id="img" src="assets/img/perfil.jpeg" alt="">
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h5>Nome Completo:</h5>
+            <ul id="nome-completo">
+                <li class="ponteiro" id="novoNome"></li>
+            </ul>
+        </div>
+        <div>
+            <h5>Email:</h5>
+            <ul id="email">
+                <li class="ponteiro" id="novoEmail"></li>
+            </ul>
+        </div>
+    </div>
+
+</main>
+
+<div class="button">
+    <button onclick="imprime()" id="verificacao">Pesquisar Usuario</button>
+    <button onclick="limpar()">Limpar</button>
+</div>
+
+<script src="javascript/script.js"></script>
+    
+</body>
+</html>

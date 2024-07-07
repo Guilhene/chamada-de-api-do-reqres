@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;   
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(https://live.staticflickr.com/3152/2297743226_fbe60f7eae_b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3, h5 {
+    margin: 0.9vh;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.content {
+    width: 400px;
+    border-radius: 15px;
+    padding: 10px;
+    color: black;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.3);
+    color: white;
+}
+
+.bord {
+    justify-content: center;
+    align-items: center;
+}
+
+.transparente {
+    display: block;
+    text-align: left;
+    column-count: 2;
+}
+
+.bord img {
+    margin-left: 115px;
+}    
+
+.ponteiro{
+    cursor: default;
+}
+
+.ponteiro:hover {
+    background: rgb(0, 0, 0, 0);
+}
+
+li {
+    display: flex;
+    padding: 0.8vh;
+    cursor: pointer;
+    flex-direction: column;
+    margin-right: 15px;
+    border-bottom: 1px solid black;
+}
+
+li:hover {
+    background: rgb(255, 255, 255, 0.6);
+}
+
+img {
+    width: 150px;
+    border-radius: 15px;
+    margin: 0.9vh;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh; 
+}
+
+button {
+    width: 150px;
+    padding: 0.6vh;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(255, 255, 255, 35);
+}
